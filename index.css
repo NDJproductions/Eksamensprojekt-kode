@@ -73,18 +73,21 @@ h1 {
     gap: 20px;
     text-align: left;
     font-size: 14px;
+    margin-left: 100px;
 }
 
 .profile-pic {
     width: 300px;
     border-radius: 20%;
+    /*margin-right: 100px;*/
 }
 
 .intro-text {
-    max-width: 90%;
+    max-width: 100%;
     text-align: left;
     font-size: 14px;
     margin-bottom: 10px;
+    
 }
 
 .additional-info {
@@ -115,4 +118,14 @@ h1 {
     max-width: 300px;
     height: auto;
     margin-bottom: 10px;
+}
+
+.contact {
+    font-family: 'Inria Serif', serif;
+    color: #1a2333;
+    padding: 20px;
+    text-align: left;
+    margin-top: 20px;
+    font-size: 20px;
+
 }
