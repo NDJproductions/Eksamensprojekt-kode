@@ -6,30 +6,33 @@
 
 h1 {
     font-size: 36px;
-    
+    margin-bottom: 100px;
+    margin-top: 100px;
+
 }
 
 .intro {
-    text-align:left;
+    text-align:center;
     margin-bottom: 20px;
 }
 
 .intro {
     font-family: 'DM Serif Display', serif;
-    font: size 28px;
+    font: size 32px;
     color: #1a2333;
-    margin-bottom: 20px;
+    margin-bottom: 200px;
     margin-left: 20px;
 }
 
 .intro-content {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     align-items: flex-start;
-    gap: 20px;
+    gap: 30px;
 }
 
 .profile-pic {
     width: 600px;
     border-radius: 20%;
+    
 }
