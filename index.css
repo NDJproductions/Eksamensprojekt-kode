@@ -5,46 +5,87 @@
 
 @import url(base.css);
 
-h1 {
-    font-size: 36px;
-    margin-bottom: 100px;
-    margin-top: 100px;
+.body{
+    font-family: 'Inria Serif', serif;
+    background-color: #fff1f1;
+    color: #1a2333;
+    margin: 0;
+    padding: 0;
+}
 
+.header {
+    background-color: #fff1f1;
+    padding: 10px 20px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 100px;
+    width: 180px;
+}
+
+nav ul {
+    font-family: 'DM Serif Display', serif;
+    list-style: none;
+    flex-direction: column;
+    display: flex;
+    gap: 10px;
+    pad: 0;
+    margin: 0;
+    margin-right: 200px;
+}
+
+nav ul li a {
+    font-size: 16px;
+    color: #1a2333;
+    text-decoration: none;
+
+}
+
+main {
+    padding: 20px;
 }
 
 .intro {
     text-align:center;
     margin-bottom: 20px;
     font-family: 'Inria Serif', serif;
-    font: size 32px;
+    font-size: 14;
     color: #1a2333;
-    margin-bottom: 200px;
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 70px;
 }
 
 .intro-content {
     display: flex;
-    flex-direction: row-reverse;
-    align-items: flex-start;
+    flex-direction: column;
+    align-items: center;
     gap: 20px;
     text-align: left;
     font-size: 14px;
-    margin-left: 100px;
 }
 
 .profile-pic {
-    width: 600px;
+    width: 300px;
     border-radius: 20%;
-    /*margin-right: 100px;*/
 }
 
 .intro-text {
-    max-width: 100%;
+    max-width: 90%;
     text-align: left;
-    font-size: 16px;
+    font-size: 14px;
     margin-bottom: 10px;
-
 }
-
 
 .additional-info {
     background-color: #AB5800;
@@ -64,10 +105,9 @@ h1 {
 
 .info-block p {
     font-family: 'Inria Serif', serif;
-    font-size: 16px;
-    justify-content: center;
+    font-size: 14px;
     text-align: left;
-
+    margin-right: 50px;
 }
 
 .info-block img {
