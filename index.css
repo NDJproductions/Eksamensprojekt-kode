@@ -14,25 +14,24 @@ h1 {
 .intro {
     text-align:center;
     margin-bottom: 20px;
-}
-
-.intro {
     font-family: 'DM Serif Display', serif;
     font: size 32px;
     color: #1a2333;
     margin-bottom: 200px;
-    margin-left: 20px;
 }
 
 .intro-content {
     display: flex;
     flex-direction: row-reverse;
     align-items: flex-start;
-    gap: 30px;
+    gap: 200px;
+    text-align: left;
+    font-size: 28px;
+    margin-left: 100px;
 }
 
 .profile-pic {
     width: 600px;
     border-radius: 20%;
-    
+    margin-right: 100px;
 }
