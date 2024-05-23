@@ -2,7 +2,7 @@
 
 /* This is a CSS file */
 
-body{
+.body{
     font-family: 'Inria Serif', serif;
     background-color: #fff1f1;
     color: #1a2333;
@@ -10,7 +10,18 @@ body{
     padding: 0;
 }
 
-header {
+.header {
     background-color: #fff1f1;
     padding: 10px 20px;
+}
+
+.header-content {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 300px;
+    width: 500px;
 }

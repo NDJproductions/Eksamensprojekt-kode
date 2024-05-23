@@ -5,6 +5,31 @@
 @import url(base.css);
 
 h1 {
-    font-size: 10px;
+    font-size: 36px;
     
+}
+
+.intro {
+    text-align:left;
+    margin-bottom: 20px;
+}
+
+.intro {
+    font-family: 'DM Serif Display', serif;
+    font: size 28px;
+    color: #1a2333;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.intro-content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.profile-pic {
+    width: 600px;
+    border-radius: 20%;
 }
