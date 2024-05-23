@@ -2,7 +2,15 @@
 
 /* This is a CSS file */
 
-h1 {
-    font-size: 50px;
-    
+body{
+    font-family: 'Inria Serif', serif;
+    background-color: #fff1f1;
+    color: #1a2333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #fff1f1;
+    padding: 10px 20px;
 }
