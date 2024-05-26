@@ -28,6 +28,7 @@ h2 {
 .project-image {
     width: 100%;
     max-width: 300px;
+    max-height: 350px;
     margin-bottom: 10px;
 }
 
@@ -53,4 +54,10 @@ h2 {
 .project3 {
     background-color: #AB5800;
     color: #FFF1f1;
+}
+
+.project4 {
+    background-color: #FFF1f1;
+    color: #1a2333;
+
 }
