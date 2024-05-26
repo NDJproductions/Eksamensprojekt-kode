@@ -32,7 +32,7 @@
 nav ul {
     font-family: 'DM Serif Display', serif;
     list-style: none;
-    flex-direction: column;
+    flex-direction: row;
     display: flex;
     gap: 10px;
     pad: 0;
@@ -72,7 +72,7 @@ h1 {
     align-items: center;
     gap: 20px;
     text-align: left;
-    font-size: 14px;
+    font-size: 16px;
     margin-left: 100px;
 }
 
@@ -85,7 +85,7 @@ h1 {
 .intro-text {
     max-width: 100%;
     text-align: left;
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: 10px;
     
 }
@@ -108,7 +108,7 @@ h1 {
 
 .info-block p {
     font-family: 'Inria Serif', serif;
-    font-size: 14px;
+    font-size: 16px;
     text-align: left;
     margin-right: 50px;
 }
