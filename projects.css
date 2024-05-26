@@ -5,6 +5,7 @@
 
 @import url(base.css);
 
+
 h2 {
     text-align: center;
     font-family: 'DM Serif Display', serif;
@@ -41,4 +42,15 @@ h2 {
     background-color: #AB5800;
     color: #FFF1f1;
 
+}
+
+.project2 {
+    background-color: #FFF1f1;
+    color: #1a2333;
+
+}
+
+.project3 {
+    background-color: #AB5800;
+    color: #FFF1f1;
 }
