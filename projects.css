@@ -30,8 +30,15 @@ h2 {
     margin-bottom: 10px;
 }
 
+.project .project-description {
+    text-align: left;
+    font-size: 16px;
+    font-family: 'Inria Serif', serif;
+
+}
+
 .project1 {
     background-color: #AB5800;
-    color: #1a2333;
+    color: #FFF1f1;
 
 }
