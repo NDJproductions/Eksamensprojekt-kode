@@ -1,5 +1,37 @@
 @charset "utf-8";
 
 /* This is a CSS file */
+/* Mobile First*/
 
 @import url(base.css);
+
+h2 {
+    text-align: center;
+    font-family: 'DM Serif Display', serif;
+    font-size: 20px;
+    color: #1a2333;
+    margin-bottom: 20px;
+    margin-top: 70px;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+}
+
+.project-image {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 10px;
+}
+
+.project1 {
+    background-color: #AB5800;
+    color: #1a2333;
+
+}
