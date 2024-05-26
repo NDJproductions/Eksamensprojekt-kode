@@ -66,3 +66,12 @@ h2 {
     background-color: #AB5800;
     color: #FFF1f1;
 }
+
+.contact {
+    font-family: 'Inria Serif', serif;
+    color: #1a2333;
+    padding: 20px;
+    text-align: left;
+    margin-top: 20px;
+    font-size: 20px;
+}
