@@ -135,12 +135,17 @@ h1 {
 
 }
 
+
+
+
+
 /* tablet style (min-width: 768) */
+
 @media (min-width: 768px) {
     .intro h1 {
         font-size: 28px;
     }
-}
+
 
 .header-content {
     flex-direction: row;
@@ -165,8 +170,23 @@ nav ul {
     font-size: 18px;
 }
 
+.additional-info {
+    flex-direction: column;
+    justify-content: space-around;
+}
 
+.info-block {
+    max-width: 45%;
+}
 
+.info-block p {
+    font-size: 18px;
+}
+
+.contact h2 {
+    font-size: 24px;
+}
+}
 
 /* Desktop style (min-width: 1024) */
 
@@ -174,4 +194,18 @@ nav ul {
     .intro h1 {
         font-size: 36px;
     }
+
+    .intro-text p {
+        font-size: 28px;
+    }
+
+    .info-block p {
+        font-size: 28px;
+    }
+
+    .contact h2 {
+        font-size: 28px;
+    }
+
+
 }
