@@ -32,7 +32,7 @@
 nav ul {
     font-family: 'DM Serif Display', serif;
     list-style: none;
-    flex-direction: row;
+    flex-direction: column;
     display: flex;
     gap: 10px;
     pad: 0;
@@ -126,7 +126,7 @@ h1 {
     padding: 20px;
     text-align: left;
     margin-top: 20px;
-
+    
 
 }
 
@@ -146,19 +146,28 @@ h1 {
         font-size: 28px;
     }
 
+    .logo {
+        height: 200px;
+        width: 300px;
+    }
 
 .header-content {
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 50px;
 }
 
 nav ul {
     flex-direction: row;
-    gap: 20px;
+    gap: 150px;
+}
+
+nav ul li a {
+    font-size: 28px;
 }
 
 .intro-content {
-    flex-direction: column;
+    flex-direction: row-reverse;
     align-items: flex-start;
 }
 
@@ -171,7 +180,7 @@ nav ul {
 }
 
 .additional-info {
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-around;
 }
 
@@ -183,8 +192,21 @@ nav ul {
     font-size: 18px;
 }
 
+.info-block img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
 .contact h2 {
     font-size: 24px;
+}
+
+.profile-pic {
+    width: 500px;
+    border-radius: 20%;
+
 }
 }
 

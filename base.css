@@ -31,7 +31,7 @@
 nav ul {
     font-family: 'DM Serif Display', serif;
     list-style: none;
-    flex-direction: row;
+    flex-direction: column;
     display: flex;
     gap: 10px;
     pad: 0;
