@@ -54,7 +54,7 @@ main {
 .intro {
     text-align:center;
     margin-bottom: 20px;
-    font-family: 'Inria Serif', serif;
+    font-family: 'DM Serif Display', serif;
     font-size: 14;
     color: #1a2333;
     margin-bottom: 50px;
@@ -126,6 +126,11 @@ h1 {
     padding: 20px;
     text-align: left;
     margin-top: 20px;
+
+
+}
+
+.contact h2 {
     font-size: 20px;
 
 }
