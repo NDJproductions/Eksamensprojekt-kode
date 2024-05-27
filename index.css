@@ -118,6 +118,7 @@ h1 {
     max-width: 300px;
     height: auto;
     margin-bottom: 10px;
+
 }
 
 .contact {
@@ -178,13 +179,14 @@ nav ul li a {
 }
 
 .intro-text p {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .additional-info {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+
 }
 
 .info-block {
@@ -192,7 +194,7 @@ nav ul li a {
 }
 
 .info-block p {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .info-block img {
@@ -203,7 +205,10 @@ nav ul li a {
 }
 
 .contact h2 {
-    font-size: 24px;
+    font-size: 28px;
+}
+.contact p {
+    font-size: 20px;
 }
 
 .profile-pic {
@@ -256,6 +261,10 @@ nav ul li a {
     }
 
     .contact h2 {
+        font-size: 36px;
+    }
+
+    .contact p {
         font-size: 28px;
     }
 

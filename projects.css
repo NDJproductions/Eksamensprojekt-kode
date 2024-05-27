@@ -5,8 +5,15 @@
 
 @import url(base.css);
 
+.body{
+    font-family: 'Inria Serif', serif;
+    background-color: #fff1f1;
+    color: #1a2333;
+    margin: 0;
+    padding: 0;
+}
 
-h2 {
+h1 {
     text-align: center;
     font-family: 'DM Serif Display', serif;
     font-size: 20px;
@@ -78,6 +85,7 @@ h2 {
 
 .contact h2 {
     font-size: 20px;
+    
 
 }
 
@@ -120,6 +128,25 @@ h2 {
     align-items: center;
 }
 
+.project1 {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project3 {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.project5 {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .project-image {
     max-width: 300px;
 }
@@ -130,5 +157,15 @@ h2 {
     margin-left: 20px;
 }
 
+.project .project-description p {
+    font-size: 20px ;
+}
+
+.contact h2 {
+    font-size: 28px;
+}
+.contact p {
+    font-size: 20px;
+}
 
 }
