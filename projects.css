@@ -81,3 +81,54 @@ h2 {
 
 }
 
+
+/* tablet style (min-width: 768) */
+
+@media (min-width: 768px) {
+    .intro h1 {
+        font-size: 28px;
+    }
+
+    .logo {
+        height: 200px;
+        width: 300px;
+    }
+
+.header-content {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+nav ul {
+    flex-direction: row;
+    gap: 150px;
+    margin-right: 100px;
+}
+
+nav ul li a {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+.project {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-image {
+    max-width: 300px;
+}
+
+.project .project-description {
+    width: 70%;
+    text-align: left;
+    margin-left: 20px;
+}
+
+
+}
