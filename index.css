@@ -87,6 +87,12 @@ h1 {
     
 }
 
+.style {
+    width: 950px;
+    height: 0px;
+    flex-shrink: 0;
+}
+
 .additional-info {
     background-color: #AB5800;
     color: #FFF1F1;
