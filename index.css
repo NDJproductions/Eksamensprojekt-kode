@@ -47,9 +47,6 @@ nav ul li a {
 
 }
 
-main {
-    padding: 20px;
-}
 
 .intro {
     text-align:center;
@@ -231,8 +228,8 @@ nav ul li a {
     }
 
     .logo {
-        height: 350px;
-        width: 500px;
+        height: 300px;
+        width: 450px;
     }
 
     nav ul {

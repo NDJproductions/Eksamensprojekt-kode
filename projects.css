@@ -177,3 +177,81 @@ h2 {
 
 /* desktop style (min-width: 1024) */
 
+@media (min-width: 1024px) {
+    h1 {
+        font-size: 36px;
+    }
+
+    .logo {
+        height: 300px;
+        width: 450px;
+    }
+
+.header-content {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+nav ul {
+    flex-direction: row;
+    gap: 400px;
+    margin-right: 200px;
+}
+
+nav ul li a {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+.project {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project1 {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project3 {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.project5 {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-image {
+    max-width: 500px;
+    height: auto;
+}
+
+.project .project-description {
+    width: 70%;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.project .project-description p {
+    font-size: 28px ;
+}
+
+.contact h2 {
+    font-size: 36px;
+}
+.contact p {
+    font-size: 28px;
+}
+
+}
