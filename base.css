@@ -37,7 +37,6 @@ nav ul {
     flex-direction: column;
     display: flex;
     gap: 10px;
-    pad: 0;
     margin: 0;
 
 }
